@@ -1,0 +1,91 @@
+
+
+.containerFlex2{
+    width: 70%;
+    /* border: 2px solid black; */
+    margin-bottom:10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.containerPara1{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.para1{
+
+    background-color: black;
+    width: 40%;
+    color: white;
+    padding: 20px;
+    margin: 10px
+}
+
+
+/* img plage  */
+.imgmedia {
+    width: 90%;
+    height:50vh ;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+
+/* image femme */
+
+.flexContainerImg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+     /* border: 2px solid rgb(206, 85, 85); */
+     text-align: center;
+   
+     
+    
+}
+
+.flexContainerImg img{
+    margin: 10px;
+     height:50vh ;
+      width: 90%;
+      
+}
+
+.containerFlex3{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+     /* border: 2px solid rgb(206, 85, 85); */
+}
+
+.para2{
+    background-color: blue;
+    color: white;
+    width: 15%;
+    padding: 10px;
+    -direction: column;
+}
+
+
+/* média sur téléphone  */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .containerPara1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .para1{
+    width: 90%;
+    }
+    
+}
+
+  
+    
+
+
