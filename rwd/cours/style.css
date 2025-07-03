@@ -36,14 +36,13 @@ div p {
 }
 
 
+/* Grille responsiv avec flexbox  */
 
 .flexContainer{
     display: flex;
     flex-wrap: wrap;
 
 }
-
-
 
 .flexItem{
     width: 20%;
@@ -55,4 +54,44 @@ div p {
 
 .flexItem img{
     width: 100%;
+}
+
+
+/* Medias queries */
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.navItem{
+    flex-grow: 1;
+}
+
+.itemnav1{
+    background-color: grey;
+}
+.itemnav2{
+    background-color: pink;
+}
+
+.itemnav3{
+    background-color: green;
+}
+
+.itemnav4{
+    background-color: lightblue;
+}
+
+
+@media screen and (max-width: 638px){
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
 }
