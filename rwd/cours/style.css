@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+/* html{
+    font-size: 32px;
+} */
+/* 
+p{
+    font-size: 1.25rem;
+} */
+
+/* 
+div{
+    
+    font-size: 2em;
+}
+
+div p {
+    font-size: 1.2em;
+} */
+
+
+/* les images  responsive*/
+
+.containerImg{
+    width: 50%;
+    min-width: 400px;
+    max-width: 600px;
+ 
+}
+
+.containerImg img{
+    width: 100%;
+}
+
+
+
+.flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+.flexItem{
+    width: 20%;
+    max-width: 800px;
+    min-width: 400px;
+    /* border: 2px solid red; */
+}
+
+
+.flexItem img{
+    width: 100%;
+}

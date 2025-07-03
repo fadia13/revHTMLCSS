@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon site web</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="haut">Bienvenue sur mon site</h1>
+    <!-- <h2>Bienvenue sur mon site</h2>
+    <h3>Bienvenue sur mon site</h3> -->
+
+    <nav>
+      <ul>
+        <li><a href="">Accueil</a></li>
+        <li><a href="">A propos</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- section principal  -->
+    <section>
+      <div id="section1" class="main-content">
+        <h2>Ma première section</h2>
+        <p>
+          Ceci est un paragraphe d'exemple pour apprendre le HTML et le CSS.
+        </p>
+
+        <!-- <a href="https://fr.wikipedia.org/wiki/Robot" target="blank"> -->
+        <img src="htmlcss.png" alt="robot" width="500" title="Mon robot" />
+        <!-- </a> -->
+
+        <!-- liste ordonnée  -->
+
+        <ol>
+          <li>Etape 1</li>
+          <li>Etape 2</li>
+          <li>Etape 3</li>
+        </ol>
+
+        <!-- rangement par ordre alphabétique/numérique attribut type ="A" /type ="I"  -->
+        <!-- Possibilité d'inverser le classement avec l'attribut reversed -->
+        <!-- <ol type="I" reversed>
+        <li>Etape 1</li>
+        <li>Etape 2</li>
+        <li>Etape 3</li>
+        <li>Etape 3</li>
+      </ol> -->
+
+        <!-- Récupérer une vidéo provenant de youtube  -->
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/yU20m38Kwgw?si=p9nHTXrqdlP_t_YT"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+
+        <!-- Insérer une vidéo personelle -->
+        <!-- ne surtout pas oublier l'attribut controls -->
+        <!-- poster => pour mettre une image en avnt première
+        autoplay => créer un démarrage automatique 
+        loop => la vidéo sera en boucle -->
+        <!-- <video src="video.mp4" controls  loop width="500"></video> -->
+      </div>
+    </section>
+
+    <section class="flexContainer2">
+      <p class="flexItem2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+        accusantium exercitationem debitis, atque blanditiis quam minus soluta
+        beatae quos veniam aut ut ex adipisci tempore natus maxime temporibus
+        excepturi sed.
+      </p>
+
+      <p class="flexItem2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+        accusantium exercitationem debitis, atque blanditiis quam minus soluta
+        beatae quos veniam aut ut ex adipisci tempore natus maxime temporibus
+        excepturi sed.
+      </p>
+
+      <p class="flexItem2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+        accusantium exercitationem debitis, atque blanditiis quam minus soluta
+        beatae quos veniam aut ut ex adipisci tempore natus maxime temporibus
+        excepturi sed.
+      </p>
+    </section>
+
+    <!-- <p>Pour aller en haut cliquez <a href="#haut">ici</a></p> -->
+    <!-- pied de page  -->
+
+    <!-- methode flexbox  -->
+
+    <section class="MethodeFlex">
+      <div class="flexContainer">
+        <div class="flexItem item1">one</div>
+        <div class="flexItem item2">two</div>
+        <div class="flexItem item3">three</div>
+        <div class="flexItem item4">fouur</div>
+        <div class="flexItem item5">five</div>
+        <div class="flexItem item6">six</div>
+      </div>
+    </section>
+
+    <h2>Methode Grid</h2>
+    <!-- methode css grid  -->
+
+    <section class="methodGrid">
+      <div class="GridContainer">
+        <div class="gridItem item11">one</div>
+        <div class="gridItem item2">two</div>
+        <div class="gridItem item3">three</div>
+        <div class="gridItem item4">fouur</div>
+        <div class="gridItem item5">five</div>
+        <div class="gridItem item6">six</div>
+      </div>
+    </section>
+
+    <footer>
+      <div id="footer">
+        <p>© 2025 Mon Site</p>
+      </div>
+    </footer>
+  </body>
+</html>

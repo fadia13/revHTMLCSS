@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+/* corps de la page  */
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* nav */
+h1,
+h2 {
+  text-align: center;
+  color: purple;
+}
+
+ul {
+  list-style: none;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+/* selection descendante  */
+ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #1abc9c;
+}
+
+.main-content {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Methode flexbox */
+.flexContainer {
+  height: 50vh;
+  display: flex;
+  /* définir la direction  */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; flex-direction: column-reverse; */
+  /* Définir le positionnement horizontal */
+  /* justify-content:flex-start ;
+       justify-content:flex-end ; */
+  justify-content: center;
+  /* justify-content: space-around;*/
+   /* justify-content: space-between;  */
+
+  /*Définir la positionement vertical */
+    /* align-items: flex-end; */
+    align-items: center;
+    /* définir l'espace entre les 2 éléments */
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30%;
+
+}
+
+.flexItem {
+  height: 10vh;
+  width: 30%;
+  min-width: 400px;
+}
+.item1 {
+  background-color: red;
+}
+.item2 {
+  background-color: rgb(59, 201, 194);
+}
+
+.item3 {
+  background-color: rgb(81, 7, 106);
+}
+
+.item4 {
+  background-color: orange;
+}
+.item5 {
+  background-color: rgb(28, 214, 118);
+}
+
+.item6 {
+  background-color: yellow;
+}
+
+#footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+/* exercice  */
+
+.flexContainer2{
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+  flex-wrap: wrap;
+ 
+}
+
+.flexItem2{
+  width: 30%;
+  min-width:400px ;
+}
+
+
+/* methode grid  */
+
+.GridContainer{
+  display: grid;
+  row-gap: 20px;
+  column-gap:20px;
+  grid-auto-rows: 200px;
+  grid-template-columns: 20% 20%  20% ;
+}
+
+.item11{
+  background-color: red;
+  grid-column:1/-1 ;
+
+}
